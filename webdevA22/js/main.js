@@ -147,7 +147,7 @@ if (sPage == "history.html") {
 } else if (sPage == "quiz.html") {
   const question = [
     {
-      question: "Who have the highest production of rice Rice",
+      question: "Who have the highest production of rice",
       answer: ["China", "India", "USA", "Russia"],
       Correct: 0,
     },
