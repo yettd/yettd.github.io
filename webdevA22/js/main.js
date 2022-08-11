@@ -312,7 +312,7 @@ if (sPage == "history.html") {
       setTimeout(() => getQuestion(), 2000);
     }
   }
-} else if (sPage == "index.html") {
+} else if (sPage == "index.html" ||  sPage == "") {
   //0 history,1 how its made, 2 benefit
 
   var DefaultSize = window.matchMedia("(max-width: 1080px)");
