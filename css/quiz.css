@@ -1,0 +1,143 @@
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 81, 31);
+}
+@font-face {
+    font-family: big;
+  src: url(../font/DINRoundPro.ttf);
+  }
+  @font-face {
+    font-family: bigBlack;
+  src: url(../font/DINRoundPro-Black.ttf);
+  }
+  .score p{
+    font-family: bigBlack;
+  }
+  .question p{
+    font-family: bigBlack;
+  }
+  p{
+    font-family: big;
+  }
+
+.answer{
+    display: flex;
+    height: 50%;
+}
+.question{
+    height: 50%;
+    background-color: aqua;
+    position: relative;
+}
+.question .start{
+    position:absolute;
+    height: 20%;
+    width: 20%;
+}
+.question{
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question p{ 
+    font-size: 2em;
+}
+.score{
+    height: 10em;
+    
+}
+.score p{
+    font-size: 2em;
+}
+.answer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ans{
+    margin-top: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    
+}
+.box,.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+}
+.hide{
+    display: none;
+}
+.ans :hover{
+    /* background-color: rgb(104, 104, 0); */
+    cursor:pointer;
+}
+.default{
+    background-color: beige;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+.hide{
+    display: none;
+    width: 0%;
+}
+.text{
+    font-size: 1.5em;
+    
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+    .question p{
+        font-size: 1.5em;
+    }
+    .question{
+        margin:auto 10px;
+    }
+    .text{
+        font-size: 1.5em;
+        
+    }
+    .ans{
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .ans{
+        width: 100%;
+        margin:auto 10px;
+    }
+    .box{
+        width: 100%;
+        
+    }
+    .question{
+        margin:auto 10px;
+        height: 25%;
+    }
+    .score{
+        height: 10%;
+    }
+  }
+  
+  
